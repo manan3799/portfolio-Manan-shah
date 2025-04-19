@@ -18,6 +18,10 @@
       min-height: 100vh;
       padding: 4rem 2rem;
     }
+    a:focus {
+      outline: 2px solid #2563eb;
+      outline-offset: 2px;
+    }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -43,10 +47,10 @@
   <!-- Hero Section -->
   <section id="home" class="flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
     <div class="text-center animate-section">
-      <img src="https://via.placeholder.com/150" alt="Manan Shah Photo" class="w-32 h-32 rounded-full mx-auto mb-4">
+      <img src="https://via.placeholder.com/150" alt="Manan Shah, Manufacturing Production Technician" class="w-32 h-32 rounded-full mx-auto mb-4">
       <h1 class="text-4xl font-bold mb-2">Manan Shah</h1>
       <p class="text-xl mb-4">Manufacturing Production Technician</p>
-      <a href="#contact" class="bg-white text-blue-600 px-6 py-2 rounded-full hover:bg-gray-200">Get in Touch</a>
+      <a href="#contact" class="bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-gray-200 shadow-md">Get in Touch</a>
     </div>
   </section>
 
@@ -54,7 +58,7 @@
   <section id="about" class="bg-white animate-section">
     <div class="max-w-7xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-6">About Me</h2>
-      <img src="https://via.placeholder.com/300" alt="Manan in Town Square" class="w-48 h-48 mx-auto mb-4 rounded-lg">
+      <img src="https://i.imgur.com/F7CVmNl.jpeg" alt="Manan Shah working on ship fabrication grinding" class="w-48 h-48 mx-auto mb-4 rounded-lg object-cover" loading="lazy">
       <p class="text-lg max-w-2xl mx-auto">
         I am an industrious Manufacturing Production Technician with 5 years of hands-on experience in material assembly, inventory maintenance, and equipment operations. I specialize in mechanical fitting, grinding, and production processes across industries like glass manufacturing and tire production. I am committed to quality control and embracing new manufacturing technologies.
       </p>
@@ -81,7 +85,7 @@
       <h2 class="text-3xl font-bold mb-6">Education</h2>
       <div class="space-y-6">
         <div class="flex items-center space-x-4">
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Gujarat_Technological_University_Logo.png/220px-Gujarat_Technological_University_Logo.png" alt="GTU Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/Ap9aZF0.png" alt="Gujarat Technological University Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Diploma in Mechanical Engineering</h3>
             <p>Gujarat Technological University, Anand, India</p>
@@ -98,7 +102,7 @@
       <h2 class="text-3xl font-bold mb-6">Work Experience</h2>
       <div class="space-y-6">
         <div class="flex items-center space-x-4">
-          <img src="https://via.placeholder.com/50" alt="AOSS SP ZOO Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/m0uNeIq.png" alt="AOSS SP ZOO Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Mechanical Fitter and Grinder</h3>
             <p>AOSS SP ZOO, Poland</p>
@@ -107,7 +111,7 @@
           </div>
         </div>
         <div class="flex items-center space-x-4">
-          <img src="https://www.sisecam.com.tr/images/logo.png" alt="Sisecam Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/2ss5dD2.png" alt="Sisecam Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Production Technician</h3>
             <p>Sisecam Flat Glass India Pvt Ltd, Halol, India</p>
@@ -116,7 +120,7 @@
           </div>
         </div>
         <div class="flex items-center space-x-4">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Schaeffler_Group_Logo.svg/1200px-Schaeffler_Group_Logo.svg.png" alt="Schaeffler Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/fKifSvZ.png" alt="Schaeffler Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Trainee</h3>
             <p>Schaeffler India Pvt Ltd, Vadodara, India</p>
@@ -125,7 +129,7 @@
           </div>
         </div>
         <div class="flex items-center space-x-4">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Yokohama_Rubber_Company_logo.svg/1200px-Yokohama_Rubber_Company_logo.svg.png" alt="Yokohama Rubber Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/z78rvlH.png" alt="Yokohama Rubber Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Technical Intern Trainee</h3>
             <p>Yokohama Rubber Pvt Ltd, Onomichi, Japan</p>
@@ -134,7 +138,7 @@
           </div>
         </div>
         <div class="flex items-center space-x-4">
-          <img src="https://via.placeholder.com/50" alt="ATG Tyres Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/DlgJI3b.png" alt="ATG Tyres Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Diploma Apprentice Trainee</h3>
             <p>ATG Tyres Pvt Ltd, Dahej, India</p>
@@ -143,7 +147,7 @@
           </div>
         </div>
         <div class="flex items-center space-x-4">
-          <img src="https://via.placeholder.com/50" alt="Vovantis Lab Logo" class="w-12 h-12">
+          <img src="https://i.imgur.com/HaRvZCI.png" alt="Vovantis Lab Logo" class="w-12 h-12 object-contain" loading="lazy">
           <div class="text-left">
             <h3 class="font-semibold">Technician</h3>
             <p>Vovantis Lab Pvt Ltd, Vadodara, India</p>
@@ -161,12 +165,12 @@
       <h2 class="text-3xl font-bold mb-6">Portfolio</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-white p-4 rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/300" alt="Welding Project" class="w-full h-48 object-cover rounded-md">
+          <img src="https://i.imgur.com/1uesNMV.jpeg" alt="Ship fabrication grinding project" class="w-full h-48 object-cover rounded-md" loading="lazy">
           <h3 class="font-semibold mt-2">Ship Fabrication Grinding</h3>
           <p>Performed manual grinding of TIG and MIG welded areas in ship fabrication assemblies.</p>
         </div>
         <div class="bg-white p-4 rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/300" alt="Mechanical Component Handling" class="w-full h-48 object-cover rounded-md">
+          <img src="https://i.imgur.com/90RWPuG.jpeg" alt="Mechanical component assembly using blueprints" class="w-full h-48 object-cover rounded-md" loading="lazy">
           <h3 class="font-semibold mt-2">Mechanical Assembly Work</h3>
           <p>Conducted assembly and maintenance of mechanical components using blueprints.</p>
         </div>
@@ -178,7 +182,7 @@
   <section id="contact" class="bg-white animate-section">
     <div class="max-w-7xl mx-auto text-center">
       <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
-      <p class="text-lg mb-4">Warmatowice, Poland</p>
+      <p class="text-lg mb-4">Szczecin, Poland</p>
       <p class="text-lg mb-4">+48729403088 | +919879364639</p>
       <p class="text-lg mb-4">shahmanan3799@gmail.com</p>
       <div class="flex justify-center space-x-4">
